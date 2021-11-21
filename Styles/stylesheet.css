@@ -1,0 +1,27 @@
+.hero-wrapper {
+	background: linear-gradient(-45deg, #253e77, #043f4e, #23a6d5, #048668);
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+
+.name-hero-text{
+    margin-top: 35vh;
+    position: relative;
+    font-size: 4vh;
+    text-align: center ;
+    line-height: 1;
+    color: white;
+}
+
+
+.hero-text{
+    text-align: center;
+    font-size: 2.5vh;
+    color: white;
+}
