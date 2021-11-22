@@ -1,7 +1,7 @@
 .hero-background{
 	background: linear-gradient(-45deg, #253e77, #043f4e, #23a6d5, #048668);
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 110vh;
     width: 99.1vw;
     top: 0;
     left: 0;
@@ -31,19 +31,21 @@
 .navbar-nav{
     left: 0;
     position: absolute;
-    margin-top: 45.47vh;
+    margin-top: 54.9vh;
     text-align: center;
-    vertical-align: middle;
     margin-bottom: 2%;
     overflow: hidden;
     width: 99.1vw;
     height: 6vh;
     background-color:#040b0b;
+    z-index: 2;
+    min-height: 50px;
 }
 
 
 .nav-words{
-    margin-top: 1.5vh;
+    margin-top: .4rem;
+    text-align: center;
 }
 
   
@@ -66,9 +68,9 @@
     left: 0;
     position: absolute;
     background-color: antiquewhite;
-    height: 94.8vh;
+    height: 100vh;
     width: 99.1vw;
-    margin-top: 51vh;
+    margin-top: 55vh;
 }
 
 
@@ -76,13 +78,13 @@
     background: border-box;
     position: relative;
     margin-top: 42vh;
-    margin-left: 29vw;
+    margin-left: 25.5vw;
 }
 
 
 .about-image{
-    max-width: 225px;
-    min-width: 20px;
+    max-width:230px ;
+    min-width: 5px !important;
 }
 
 
@@ -90,7 +92,6 @@
     position: absolute;
     margin-left: 43vw;
     height: 5vh;
-    width: 19vw;
     font-size: 2.5vh;
 }
 
@@ -99,7 +100,7 @@
     position: relative;
     margin-left: 3vw;
     margin-top: 40vh;
-    width: 20vw;
+    width: 30vw;
     height: 10vh;
     font-size: 2vh;
 }
@@ -107,8 +108,50 @@
 
 .hexagon{
     margin-top: 10vh;
-    margin-left: 31.5vw;
+    margin-left: 15.3vw;
     color: blueviolet;
     position: absolute;
     font-size: 18vh;
 }
+
+
+.hex{
+    margin-top: 3vh;
+    margin-left: 11.5vw;
+    float: right;
+    position: relative;
+    margin-right: 4vw;
+    width: 7.3vw;
+    fill:rgb(0, 0, 0) ;
+}
+
+
+.speed{
+    margin-left: 54.7vw;
+    margin-top: 8.8vh;
+    height: 8vh;
+    position: absolute;
+    fill: rgb(255, 0, 0);
+    z-index: 2;
+}
+
+
+.text{
+    margin-top: 10vh;
+    margin-left: 9.4vw;
+    position:absolute;
+    height: 7vh;
+    fill: rgb(255, 0, 0);
+    z-index: 2;
+}
+
+
+.truck{
+    height: 8vh;
+    fill:red;
+    position:absolute;
+    margin-top: 9.5vh;
+    margin-left: 32.1vw;
+}
+
+
