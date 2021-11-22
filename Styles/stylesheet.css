@@ -1,4 +1,4 @@
-.hero-wrapper {
+.hero-background{
 	background: linear-gradient(-45deg, #253e77, #043f4e, #23a6d5, #048668);
 	animation: gradient 15s ease infinite;
 	height: 100vh;
@@ -6,6 +6,7 @@
     top: 0;
     left: 0;
     position: absolute;
+    z-index: -2;
 }
 
 
@@ -23,5 +24,77 @@
 .hero-text{
     text-align: center;
     font-size: 2.5vh;
-    color: white;
+    color: white
+}
+
+
+.navbar-nav{
+    left: 0;
+    position: absolute;
+    margin-top: 45.47vh;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 2%;
+    overflow: hidden;
+    width: 100vw;
+    height: 6vh;
+    background-color:#040b0b;
+}
+
+
+.nav-words{
+    margin-top: 1.5vh;
+}
+
+  
+.navbar a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2vh;   
+}
+  
+
+.navbar a:hover {
+    background-color: grey;
+    color: black;
+}
+
+
+.about-me{
+    display: flex;
+    left: 0;
+    position: absolute;
+    background-color: antiquewhite;
+    height: 94.8vh;
+    width: 100vw;
+    margin-top: 51vh;
+}
+
+
+.about-me-image{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 35vw;
+
+}
+
+
+.about-title{
+    position: absolute;
+    margin-right: 100vh;
+    margin-left: 43vw;
+    height: 5vh;
+    width: 19vw;
+    font-size: 3vh;
+}
+
+
+.about-me-text{
+    position: absolute;
+    margin-left: 53vw;
+    margin-top: 22vh;
+    width: 25vw;
+    height: 15vh;
+    font-size: 2vh;
 }
