@@ -178,13 +178,11 @@
 }
 
 
-
 .projects{
     display: flex;
     left: 0;
     position: absolute;
     background-color: rgb(134, 35, 134);
-    position: absolute;
     margin-top: 94.1vh;
     height: 100vh;
     width: 99.1vw;
@@ -200,26 +198,48 @@
 .projects-cards {
     background-image: url("/TBuscemi.github.io/ReferenceImages/GravesD20.png");
     background-color: antiquewhite;
-    margin-top: 25vh;
+    margin-top: 15vh;
     margin-left: 3vw;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    height: 50vh;
+    height: 70vh;
     width: 40vh;
     background-color:antiquewhite;
     text-align: center;
     background-repeat: no-repeat;
     background-size: contain;
-  }
-
+}
 
 
 .project-title{
-
     position: absolute;
     margin-left: 44vw;
     font-size: 2.5vh
 }
+
+
+
+.hover-effect-text{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 60vh;
+}
+
+
+.project-one-title{
+    margin-top: 39vh;
+}
+
+
+.hover-effect-text:hover{
+    opacity: 0 !important;
+}
+
+
+
+
 
 
 
