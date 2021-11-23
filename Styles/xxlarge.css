@@ -1,1 +1,38 @@
-@media only screen and (min-width: 2500px)
+@media only screen and (min-width: 2500px){
+
+    .hero-background{
+        height: 100vh;
+    }
+
+
+    .navbar{
+        margin-top: 45vh;
+    }
+
+
+    .about-me{
+        margin-top: 51vh;
+        height: 94vh;
+    }
+
+
+    .about-image{
+        max-width:285px ;
+    }
+
+
+    .speed{
+        margin-left: 31.8vw
+    }
+
+
+    .truck{
+        margin-left: 54.7vw;
+        ;
+    }
+
+
+    .nav-words{
+        margin-top: 2vh;
+    }
+}

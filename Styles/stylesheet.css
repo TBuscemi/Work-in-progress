@@ -1,7 +1,7 @@
 .hero-background{
 	background: linear-gradient(-45deg, #253e77, #043f4e, #23a6d5, #048668);
 	animation: gradient 15s ease infinite;
-	height: 110vh;
+	height: 100vh;
     width: 99.1vw;
     top: 0;
     left: 0;
@@ -31,12 +31,11 @@
 .navbar-nav{
     left: 0;
     position: absolute;
-    margin-top: 54.9vh;
+    margin-top: 45vh;
     text-align: center;
-    margin-bottom: 2%;
     overflow: hidden;
     width: 99.1vw;
-    height: 6vh;
+    height: 7vh;
     background-color:#040b0b;
     z-index: 2;
     min-height: 50px;
@@ -44,8 +43,8 @@
 
 
 .nav-words{
-    margin-top: .4rem;
-    text-align: center;
+    position: absolute;
+    margin-left: 35vw;
 }
 
   
@@ -53,7 +52,7 @@
     color: #f2f2f2;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 2vh;   
+    font-size: 3vh;   
 }
   
 
@@ -70,7 +69,7 @@
     background-color: antiquewhite;
     height: 100vh;
     width: 99.1vw;
-    margin-top: 55vh;
+    margin-top: 52vh;
 }
 
 
@@ -84,7 +83,6 @@
 
 .about-image{
     max-width:230px ;
-    min-width: 5px !important;
 }
 
 
@@ -109,7 +107,7 @@
 .hexagon{
     margin-top: 10vh;
     margin-left: 15.3vw;
-    color: blueviolet;
+    color: plum;
     position: absolute;
     font-size: 18vh;
 }
@@ -127,12 +125,20 @@
 
 
 .speed{
-    margin-left: 54.7vw;
+    margin-left: 32.1vw;
     margin-top: 8.8vh;
     height: 8vh;
     position: absolute;
-    fill: rgb(255, 0, 0);
+    fill: plum;
     z-index: 2;
+}
+
+
+.speed-text{
+    position: absolute;
+    font-size: 4vh;
+    margin-top: 20vh;
+    margin-left: 29vw;
 }
 
 
@@ -141,17 +147,82 @@
     margin-left: 9.4vw;
     position:absolute;
     height: 7vh;
-    fill: rgb(255, 0, 0);
+    fill: plum;
     z-index: 2;
+}
+
+
+.text-text{
+    position: absolute;
+    font-size: 4vh;
+    margin-top: 20vh;
+    margin-left: 4vw;
 }
 
 
 .truck{
     height: 8vh;
-    fill:red;
+    fill:plum;
     position:absolute;
     margin-top: 9.5vh;
     margin-left: 32.1vw;
+    margin-left: 54.7vw;
 }
+
+
+.truck-text{
+    position: absolute;
+    font-size: 4vh;
+    margin-top: 20vh;
+    margin-left: 52.9vw;
+}
+
+
+
+.projects{
+    display: flex;
+    left: 0;
+    position: absolute;
+    background-color: rgb(134, 35, 134);
+    position: absolute;
+    margin-top: 94.1vh;
+    height: 100vh;
+    width: 99.1vw;
+}
+
+
+.project-card-wrapper{
+    margin-left: 13vw;
+
+}
+
+
+.projects-cards {
+    background-image: url("/TBuscemi.github.io/ReferenceImages/GravesD20.png");
+    background-color: antiquewhite;
+    margin-top: 25vh;
+    margin-left: 3vw;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 50vh;
+    width: 40vh;
+    background-color:antiquewhite;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+
+.project-title{
+
+    position: absolute;
+    margin-left: 44vw;
+    font-size: 2.5vh
+}
+
+
+
+
 
 
